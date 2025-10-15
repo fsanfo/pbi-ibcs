@@ -26,4 +26,4 @@ A clareza analítica aqui é primariamente uma questão de **design e padroniza�
 ## Recursos Utilizados
 
 * **Padrão de Visualização:** IBCS® (utilização padronizada de cores e preenchimentos para Cenários como AC e PY).
-* **Elementos:** Apenas visuais nativos (Barras, Linhas, Cascata e Scatter/Lollipop) e cálculos visuais (sem medidas excessivas).
+* **Elementos:** Apenas visuais nativos (Barras e Linhas), medidas e cálculos visuais (sem medidas excessivas).
