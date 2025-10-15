@@ -1,0 +1,29 @@
+# Visual de Análise de Desempenho em Padrão IBCS®
+
+Este repositório apresenta um exemplo de visualização de dados de desempenho de negócios construída em conformidade com o padrão **International Business Communication Standards (IBCS®)**.
+
+## O que é IBCS?
+
+O IBCS® é um conjunto de regras universais para a criação de relatórios, dashboards e apresentações de negócios. O objetivo é melhorar a **clareza**, a **compreensibilidade** e a **comparabilidade** das informações de gestão, garantindo que "o que significa o mesmo se pareça com o mesmo".
+
+## Propósito e Tipos de Visualização
+
+O visual (Dashboard/Relatório) tem o propósito de fornecer uma análise de desempenho financeira rápida e inequívoca, seguindo as melhores práticas globais de comunicação de negócios.
+
+Para isso, empregamos diferentes tipos de gráficos nativos (sem customizações complexas, SVGs ou medidas em excesso), cada um com uma função clara, em total alinhamento com o IBCS:
+
+| Item | Objetivo Analítico | Padrão IBCS Aplicado | Visual Utilizado |
+| :--- | :--- | :--- | :--- |
+| **1.** | Comparação Mensal (AC vs PY/YoY) | AC (sólido escuro) vs PY (cinza claro) | **Barras Agrupadas** |
+| **2.** | Acumulado da Série Temporal | Análise de Estrutura e Contribuição | **Cascata (Waterfall)** |
+| **3.** | Variação Absoluta Total (AC vs PY) | Comparação final do resultado | **Barras Agrupadas** |
+| **4.** | Variação Relativa (Percentual) | Destaque da magnitude da mudança | **Lollipop (Pirulito)** |
+
+O uso do **Lollipop** (pirulito) para a variação percentual é ideal para reduzir o "ruído" visual, focando a atenção na métrica de variação.
+
+A clareza analítica aqui é primariamente uma questão de **design e padronização** (*SAY, STRUCTURE, UNIFY*), e não de truques visuais complexos.
+
+## Recursos Utilizados
+
+* **Padrão de Visualização:** IBCS® (utilização padronizada de cores e preenchimentos para Cenários como AC e PY).
+* **Elementos:** Apenas visuais nativos (Barras, Linhas, Cascata e Scatter/Lollipop) e cálculos visuais (sem medidas excessivas).
