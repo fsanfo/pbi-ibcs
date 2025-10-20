@@ -6,7 +6,7 @@ import random
 fake = Faker('pt_BR')
 
 # Parâmetros
-num_registros = 10000
+num_registros = 100000
 
 # Exemplos de produtos
 produtos = ['Notebook', 'Mouse', 'Teclado', 'Monitor', 'Smartphone']
@@ -18,7 +18,7 @@ for _ in range(num_registros):
     vunit = round(random.uniform(100.0, 3000.0), 2)
     total = round(qtde * vunit,2)
     registro = {
-        'Data_Venda': fake.date_between(start_date='-2y', end_date='today'),
+        'Data_Venda': fake.date_between(start_date='-4y', end_date='today'),
         'Nome_Cliente': fake.name(),
         'Cidade': fake.city(),
         'Produto': random.choice(produtos),
